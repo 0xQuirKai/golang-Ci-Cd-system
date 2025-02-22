@@ -19,6 +19,14 @@ A  CI/CD system built with Golang that supports **any programming language**. It
 ##  💡 Example Smee Setup
 - Visit smee.io and create a new channel.
 - and run  npx smee -u https://smee.io/your-custom-channel
+
+
+## ⚙️ Environment Setup
+- Rename the environment file:
+`mv .env.k .env`
+
+- Fill in the .env file with necessary configurations:
+
 ##  ⚡ Triggering the Pipeline
 - Push changes
 - Smee captures the GitHub webhook and forwards it to the CI/CD system.
