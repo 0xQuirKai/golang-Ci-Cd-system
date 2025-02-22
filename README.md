@@ -41,6 +41,6 @@ A  CI/CD system built with Golang that supports **any programming language**. It
 
 ### Stop Smee
 ```
-- Ctrl + C
+ Ctrl + C
 ```
-``
+
