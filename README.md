@@ -27,6 +27,13 @@ A  CI/CD system built with Golang that supports **any programming language**. It
 
 - Fill in the .env file with necessary configurations:
 
+## Run the system 
+
+```
+go run /cmd/web/main.go
+```
+
+
 ##  ⚡ Triggering the Pipeline
 - Push changes
 - Smee captures the GitHub webhook and forwards it to the CI/CD system.
