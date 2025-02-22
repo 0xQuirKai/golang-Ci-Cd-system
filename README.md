@@ -8,7 +8,7 @@ A  CI/CD system built with Golang that supports **any programming language**. It
 - 🔄 Auto-triggered pipelines on new commits
 - ✅ MUST USE FORWARDING SERVICE LIKE SMEE 
 
- ##🧪 How It Works
+ ## 🧪 How It Works
 - Connect your GitHub App to the repository.
 - Smee captures GitHub webhook events and forwards them to your local server.
 - The system detects the repository language and executes the steps defined in /handlers/postcommit.go.
@@ -26,8 +26,8 @@ A  CI/CD system built with Golang that supports **any programming language**. It
 ##  💾 Clean Up
 - To stop Smee and the CI/CD system:
 
-# Stop the local Golang server
+### Stop the local Golang server
 - Ctrl + C
 
-# Stop Smee
+### Stop Smee
 - Ctrl + C
