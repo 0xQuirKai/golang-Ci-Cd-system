@@ -46,5 +46,7 @@ A  CI/CD system built with Golang that supports **any programming language**. It
 
 
 ## 🌟 Future Enhancements
-### 🖥️ Web Interface — Build a user-friendly dashboard to visualize pipelines, logs, and deployment status.
-### 🔐 GitHub & Git Login — Integrate OAuth for secure GitHub/Git login to manage repositories and CI/CD configurations directly from the web interface.
+### 🖥️ Web Interface — 
+Build a user-friendly dashboard to visualize pipelines, logs, and deployment status.
+### 🔐 GitHub & Git Login — 
+Integrate OAuth for secure GitHub/Git login to manage repositories and CI/CD configurations directly from the web interface.
