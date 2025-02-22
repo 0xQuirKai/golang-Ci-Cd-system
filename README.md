@@ -18,7 +18,7 @@ A  CI/CD system built with Golang that supports **any programming language**. It
 - Customize this file to define build, test, and deployment steps for any supported language.
 ##  💡 Example Smee Setup
 - Visit smee.io and create a new channel.
-- and run  npx smee -u https://smee.io/your-custom-channel
+- and run ` npx smee -u https://smee.io/your-custom-channel `
 
 
 ## ⚙️ Environment Setup
@@ -35,7 +35,12 @@ A  CI/CD system built with Golang that supports **any programming language**. It
 - To stop Smee and the CI/CD system:
 
 ### Stop the local Golang server
-- Ctrl + C
+```
+  Ctrl + C
+```
 
 ### Stop Smee
+```
 - Ctrl + C
+```
+``
