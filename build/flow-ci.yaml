@@ -1,0 +1,9 @@
+name: React CI Pipeline
+steps:
+  - name: Install Dependencies
+    commands:
+      - npm install  # Or yarn install
+
+  - name: Run Tests
+    commands:
+      - npm test -- --coverage # Or yarn test --coverage
