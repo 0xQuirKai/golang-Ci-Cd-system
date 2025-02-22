@@ -11,10 +11,10 @@ A  CI/CD system built with Golang that supports **any programming language**. It
  ## 🧪 How It Works
 - Connect your GitHub App to the repository.
 - Smee captures GitHub webhook events and forwards them to your local server.
-- The system detects the repository language and executes the steps defined in /handlers/postcommit.go.
+- The system detects the repository language and executes the steps defined in ` /handlers/postcommit.go `
 - Pipeline triggers automatically on each commit or pull request.
 ## 📁 Pipeline Configuration
-- All pipeline logic is handled in /handlers/postcommit.go.
+- All pipeline logic is handled in ` /handlers/postcommit.go `
 - Customize this file to define build, test, and deployment steps for any supported language.
 ##  💡 Example Smee Setup
 - Visit smee.io and create a new channel.
